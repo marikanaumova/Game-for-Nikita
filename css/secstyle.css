@@ -1,0 +1,163 @@
+* {
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background-image: url(../img/please.png);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    justify-content: center;
+    background-position-x: center;
+    background-position-y: 100px;
+}
+
+.btn-next {
+    width: 100%;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.hello {
+    text-align: center;   
+}
+
+.rasskaz {
+    display: none;
+}
+
+
+.toilet-wrapper {
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.toilets {
+    display: none;
+    justify-content: space-between;
+
+}
+
+.toilets img {
+    width: 259px;
+    height: 194px;
+    cursor: pointer;
+}
+
+.modal-window {
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.modal {
+    width: 600px;
+    height: 600px;
+    background: white;
+    background-image: url("../img/police.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center 100px ;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#modal-text {
+    text-align: center;
+}
+   
+.btn-wrapper {
+    margin-top: 440px;
+    margin-left: -12px;
+    align-items: center;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    /* height: 25px;
+    display: flex;
+    position: absolute;
+    margin-left: 266px;
+    cursor: pointer; */
+}
+
+#btnNext {
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+}
+
+.modal-ochka-overlay {
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.modal-ochka {
+    width: 600px;
+    height: 600px;
+    background: white;
+    background-image: url("");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center 100px ;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-ochka button {
+    height: 25px;
+    display: flex;
+    position: absolute;
+    margin-left: 266px;
+    cursor: pointer;
+}
+
+.modal-norm-overlay {
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.modal-norm {
+    width: 600px;
+    height: 600px;
+    background: white;
+    background-image: url("");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center 100px ;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-norm button {
+    height: 25px;
+    display: flex;
+    position: absolute;
+    margin-left: 266px;
+    cursor: pointer;
+}
+
