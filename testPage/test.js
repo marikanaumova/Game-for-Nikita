@@ -1,7 +1,9 @@
 const modalka = document.getElementById('modal-window')
 const modalText = document.getElementById('modal-text')
-const btn = document.getElementById('modal-btn')
+const modalBtn = document.getElementById('modal-btn')
 const modalImg = document.getElementById('modal-img')
+
+//Est' -
 const ochko = document.getElementById('t-ochko')
 const gold = document.getElementById('t-gold')
 const norm = document.getElementById('t-norm')
