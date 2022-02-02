@@ -26,25 +26,28 @@ mybutton.onclick = () => {
     mybutton.style.display = 'none'
     clickSound = new Audio (`../audio/svin.mp3`)
     clickSound.play()
+
+    // backgroundSound = new Audio (`../audio/robocop.mp3`)
+    // backgroundSound.play()
 };
 
 // Key value
 
 const toiletItemsMap = {
     ['ochko']: {
-        text: 'Вы выбрали очко',
-        img: './img/please.png',
-        audio: ''
+        text: 'Пудж провалился в сортик',
+        img: '../img/vlada4.jpeg',
+        audio: '../audio/elkipalki.mp3'
     } ,
     ['gold']: {
         text: 'Откуда деньги?',
         img: '../img/police.png',
-        audio: '../audio/cat.mp3'
+        audio: '../audio/police.mp3'
     } ,
     ['norm']: {
         text: 'Ура нормальный сортик',
-        img: './img/cat.jpeg',
-        audio: ''
+        img: '../img/cat.jpeg',
+        audio: '../audio/cat.mp3'
     } 
 } 
 
@@ -56,10 +59,6 @@ const openModal = () => {
 
 const closeModal = () => {
     modalka.style.display = 'none'
-}
-
-const audioModal = () => {
-    
 }
 
 // Вывод инфы для модалки от obj

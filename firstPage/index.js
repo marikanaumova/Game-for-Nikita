@@ -46,6 +46,7 @@ startBtn.addEventListener('click', () => {
     const song = new Audio(`../audio/start.mp3`)
     song.play()
     startScreen.style.display = 'none'
+    
 })
 
 
